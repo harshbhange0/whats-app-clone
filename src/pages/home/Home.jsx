@@ -14,7 +14,7 @@ function Home() {
           <Header />
           <SideBar />
         </aside>
-        <main className="w-full flex-[70%] border-l border-white">
+        <main className="w-full flex-[70%] border-l h-full border-white">
           <Routes>
             <Route path="/" element={<HomeChat />} />
             <Route path="/chat/user/:id" element={<DisplayChat />} />
