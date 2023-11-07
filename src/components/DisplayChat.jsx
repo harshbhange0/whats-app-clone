@@ -30,7 +30,7 @@ function DisplayChat() {
           <div className="z-20 h-full w-full p-5">
             {user.massage.yesterday && (
               <div className="flex flex-col gap-y-1 px-10">
-                <div className=" flex w-full items-center justify-center">
+                <div className="my-3 flex w-full items-center justify-center">
                   <span className="rounded-md bg-white/90 px-2 py-1 text-sm">
                     YESTERDAY
                   </span>
@@ -49,7 +49,7 @@ function DisplayChat() {
 
             {user.massage.today && (
               <div className="flex flex-col gap-y-1 px-10">
-                <div className=" flex w-full items-center justify-center">
+                <div className="my-3 flex w-full items-center justify-center">
                   <span className="rounded-md bg-white/90 px-2 py-1 text-sm">
                     TODAY
                   </span>

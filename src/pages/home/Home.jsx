@@ -14,7 +14,7 @@ function Home() {
           <Header />
           <SideBar />
         </aside>
-        <main className="w-full flex-[70%] border-l h-full border-white">
+        <main className="h-full w-full flex-[70%] border-l border-white">
           <Routes>
             <Route path="/" element={<HomeChat />} />
             <Route path="/chat/user/:id" element={<DisplayChat />} />
@@ -24,5 +24,4 @@ function Home() {
     </section>
   );
 }
-
 export default Home;
