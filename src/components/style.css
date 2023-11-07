@@ -1,0 +1,27 @@
+.chat_wrapper {
+  @apply px-2 py-1 rounded-md relative; 
+}
+ .send::before{
+    right: -8px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    border-top: 6px solid #d9fdd3;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #d9fdd3;
+}
+.res::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -8px;
+    border-top: 6px solid white;
+    border-right: 6px solid white;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
